@@ -1,0 +1,7 @@
+Player = str(input("Please Enter Player Name: "))
+Games_Played =int(input("Number of games played: "))
+Total_Score = int(input("total score achieved: "))
+print("Player: ", Player)
+print("Games Played: ", Games_Played)
+print("Total Score: ", Total_Score)
+print(f"Average Score: {Total_Score/Games_Played}")
